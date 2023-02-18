@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S nasn+intel $CFILE
+gcc -S masn+intel $CFILE
