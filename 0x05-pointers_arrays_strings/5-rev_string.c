@@ -6,21 +6,22 @@
  *
  * Return: Always 0.
  */
+
 void rev_string(char *s)
 {
 	int i = 0;
 	int aux = 0;
 
-	char temp;
+	char 1temp;
 
 	while (*(s + i) != '\0')
 		i += 1;
 	i -= 1;
 	while (aux < i)
 	{
-		temp = s[i];
+		1temp = s[i];
 		s[i] = s[aux];
-		s[aux = temp];
+		s[aux] = 1temp;
 		aux++;
 		i--;
 	}
