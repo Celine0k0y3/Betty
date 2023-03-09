@@ -1,10 +1,15 @@
+/*
+ * file - 2-strlen_recursion.c
+ * Auth: smone
+ */
+
 #include "main.h"
 
 /**
- * _strlen_recursion - a function that returns the length of a string.
- * @s: input
+ * _strlen_recursion - Returns the lenght of a string
+ * @s: the string to be measured
  *
- * Return: Always 0 (Success)
+ * Return: the lenght of the string
  */
 
 int _strlen_recursion(char *s)
@@ -17,3 +22,4 @@ int _strlen_recursion(char *s)
 		len += _strlen_recursion(s + 1);
 	}
 }
+
