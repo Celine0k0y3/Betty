@@ -1,4 +1,4 @@
-#include "main.h"
+#include "0-object_like_macro.h"
 #include <unistd.h>
 /**
  * _putchar - writes the character c to stdout
