@@ -24,4 +24,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	if (cell != (n - 1) && separator != NULL)
 		printf("%s", separator);
 	}
+
+	printf("\n");
+
+	va_end(nums);
 }
