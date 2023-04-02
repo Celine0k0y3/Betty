@@ -1,7 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
 
-/* struct and typedef are not to be in c files. check the header file*/
 
 /**
  * print_list - a function that prints all the elements of a list_t list
@@ -13,18 +12,18 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t y = 0;
+	size_t s = 0;
 
 	while (h)
 	{
 		if (!h->str)
-			printf("[0] (nil)\n");
+			printf("[0](nil)\n");
 		else
 			printf("[%u]%s\n", h->len, h->str);
 		/*spaces preffered around - | >*/
 		h = h->next;
-		y++;
+		s++;
 	}
 
-	return (y);
+	return (s);
 }
